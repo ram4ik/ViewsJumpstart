@@ -91,6 +91,7 @@
 		955086CF23A79A8B0013B3D5 /* Control Views */ = {
 			isa = PBXGroup;
 			children = (
+				955086DE23A7AA530013B3D5 /* Slider */,
 				955086D723A7A1B10013B3D5 /* SegmentedControl(Picker) */,
 				955086D023A79A9A0013B3D5 /* SecureField */,
 			);
@@ -115,6 +116,13 @@
 				955086DC23A7A61B0013B3D5 /* Colors.swift */,
 			);
 			path = "SegmentedControl(Picker)";
+			sourceTree = "<group>";
+		};
+		955086DE23A7AA530013B3D5 /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Slider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
