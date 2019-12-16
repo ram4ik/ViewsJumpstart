@@ -15,6 +15,10 @@
 		955086C823A79A800013B3D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 955086C623A79A800013B3D5 /* LaunchScreen.storyboard */; };
 		955086D223A79AC90013B3D5 /* SecureFieldIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955086D123A79AC90013B3D5 /* SecureFieldIntroduction.swift */; };
 		955086D423A79BE10013B3D5 /* Customizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955086D323A79BE10013B3D5 /* Customizations.swift */; };
+		955086D623A7A0160013B3D5 /* CustomizationLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955086D523A7A0160013B3D5 /* CustomizationLayers.swift */; };
+		955086D923A7A2070013B3D5 /* SegmentedControlIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955086D823A7A2070013B3D5 /* SegmentedControlIntroduction.swift */; };
+		955086DB23A7A3C40013B3D5 /* NoSegmentSelected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955086DA23A7A3C40013B3D5 /* NoSegmentSelected.swift */; };
+		955086DD23A7A61B0013B3D5 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955086DC23A7A61B0013B3D5 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		955086C923A79A800013B3D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		955086D123A79AC90013B3D5 /* SecureFieldIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFieldIntroduction.swift; sourceTree = "<group>"; };
 		955086D323A79BE10013B3D5 /* Customizations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customizations.swift; sourceTree = "<group>"; };
+		955086D523A7A0160013B3D5 /* CustomizationLayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizationLayers.swift; sourceTree = "<group>"; };
+		955086D823A7A2070013B3D5 /* SegmentedControlIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlIntroduction.swift; sourceTree = "<group>"; };
+		955086DA23A7A3C40013B3D5 /* NoSegmentSelected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoSegmentSelected.swift; sourceTree = "<group>"; };
+		955086DC23A7A61B0013B3D5 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,7 @@
 		955086CF23A79A8B0013B3D5 /* Control Views */ = {
 			isa = PBXGroup;
 			children = (
+				955086D723A7A1B10013B3D5 /* SegmentedControl(Picker) */,
 				955086D023A79A9A0013B3D5 /* SecureField */,
 			);
 			path = "Control Views";
@@ -93,8 +102,19 @@
 			children = (
 				955086D123A79AC90013B3D5 /* SecureFieldIntroduction.swift */,
 				955086D323A79BE10013B3D5 /* Customizations.swift */,
+				955086D523A7A0160013B3D5 /* CustomizationLayers.swift */,
 			);
 			path = SecureField;
+			sourceTree = "<group>";
+		};
+		955086D723A7A1B10013B3D5 /* SegmentedControl(Picker) */ = {
+			isa = PBXGroup;
+			children = (
+				955086D823A7A2070013B3D5 /* SegmentedControlIntroduction.swift */,
+				955086DA23A7A3C40013B3D5 /* NoSegmentSelected.swift */,
+				955086DC23A7A61B0013B3D5 /* Colors.swift */,
+			);
+			path = "SegmentedControl(Picker)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,9 +188,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				955086D923A7A2070013B3D5 /* SegmentedControlIntroduction.swift in Sources */,
+				955086DD23A7A61B0013B3D5 /* Colors.swift in Sources */,
 				955086BC23A79A7F0013B3D5 /* AppDelegate.swift in Sources */,
 				955086D223A79AC90013B3D5 /* SecureFieldIntroduction.swift in Sources */,
+				955086DB23A7A3C40013B3D5 /* NoSegmentSelected.swift in Sources */,
 				955086BE23A79A7F0013B3D5 /* SceneDelegate.swift in Sources */,
+				955086D623A7A0160013B3D5 /* CustomizationLayers.swift in Sources */,
 				955086D423A79BE10013B3D5 /* Customizations.swift in Sources */,
 				955086C023A79A7F0013B3D5 /* ContentView.swift in Sources */,
 			);
