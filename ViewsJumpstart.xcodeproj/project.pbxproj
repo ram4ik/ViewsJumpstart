@@ -41,6 +41,10 @@
 		9550876723A9011A0013B3D5 /* DisplayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550876623A9011A0013B3D5 /* DisplayMode.swift */; };
 		9550876923A9029B0013B3D5 /* NavigationBarHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550876823A9029B0013B3D5 /* NavigationBarHidden.swift */; };
 		9550876B23A903EA0013B3D5 /* NavigationBarItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550876A23A903EA0013B3D5 /* NavigationBarItems.swift */; };
+		9550876E23A9085F0013B3D5 /* GeometryReaderIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550876D23A9085F0013B3D5 /* GeometryReaderIntroduction.swift */; };
+		9550877023A909780013B3D5 /* Positioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550876F23A909780013B3D5 /* Positioning.swift */; };
+		9550877223A90B260013B3D5 /* GettingSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550877123A90B260013B3D5 /* GettingSize.swift */; };
+		9550877423A90CC20013B3D5 /* GettingCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550877323A90CC20013B3D5 /* GettingCoordinates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +84,10 @@
 		9550876623A9011A0013B3D5 /* DisplayMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayMode.swift; sourceTree = "<group>"; };
 		9550876823A9029B0013B3D5 /* NavigationBarHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarHidden.swift; sourceTree = "<group>"; };
 		9550876A23A903EA0013B3D5 /* NavigationBarItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarItems.swift; sourceTree = "<group>"; };
+		9550876D23A9085F0013B3D5 /* GeometryReaderIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderIntroduction.swift; sourceTree = "<group>"; };
+		9550876F23A909780013B3D5 /* Positioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Positioning.swift; sourceTree = "<group>"; };
+		9550877123A90B260013B3D5 /* GettingSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingSize.swift; sourceTree = "<group>"; };
+		9550877323A90CC20013B3D5 /* GettingCoordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingCoordinates.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +144,7 @@
 		955086CF23A79A8B0013B3D5 /* Control Views */ = {
 			isa = PBXGroup;
 			children = (
+				9550876C23A908290013B3D5 /* GeometryReader */,
 				9550876323A8FE8D0013B3D5 /* NavigationView */,
 				9550873F23A8D86B0013B3D5 /* Text */,
 				9550873C23A8D6FE0013B3D5 /* Toggle */,
@@ -213,6 +222,17 @@
 				9550876A23A903EA0013B3D5 /* NavigationBarItems.swift */,
 			);
 			path = NavigationView;
+			sourceTree = "<group>";
+		};
+		9550876C23A908290013B3D5 /* GeometryReader */ = {
+			isa = PBXGroup;
+			children = (
+				9550876D23A9085F0013B3D5 /* GeometryReaderIntroduction.swift */,
+				9550876F23A909780013B3D5 /* Positioning.swift */,
+				9550877123A90B260013B3D5 /* GettingSize.swift */,
+				9550877323A90CC20013B3D5 /* GettingCoordinates.swift */,
+			);
+			path = GeometryReader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +315,7 @@
 				9550874D23A8E0D60013B3D5 /* AllowsTightening.swift in Sources */,
 				9550874323A8D94D0013B3D5 /* TextStyles.swift in Sources */,
 				955086D923A7A2070013B3D5 /* SegmentedControlIntroduction.swift in Sources */,
+				9550877423A90CC20013B3D5 /* GettingCoordinates.swift in Sources */,
 				9550876B23A903EA0013B3D5 /* NavigationBarItems.swift in Sources */,
 				9550875D23A8F35A0013B3D5 /* CustomFonts.swift in Sources */,
 				9550875B23A8F1720013B3D5 /* LayoutPriority.swift in Sources */,
@@ -307,6 +328,7 @@
 				9550876723A9011A0013B3D5 /* DisplayMode.swift in Sources */,
 				9550875523A8E73A0013B3D5 /* TruncationMode.swift in Sources */,
 				955086DB23A7A3C40013B3D5 /* NoSegmentSelected.swift in Sources */,
+				9550876E23A9085F0013B3D5 /* GeometryReaderIntroduction.swift in Sources */,
 				9550874523A8DAE60013B3D5 /* Weights.swift in Sources */,
 				9550875F23A8F5420013B3D5 /* ImportedFonts.swift in Sources */,
 				9550874123A8D87B0013B3D5 /* LineLimit.swift in Sources */,
@@ -317,6 +339,8 @@
 				9550873E23A8D71F0013B3D5 /* ToggleIntroduction.swift in Sources */,
 				955086D423A79BE10013B3D5 /* Customizations.swift in Sources */,
 				955086C023A79A7F0013B3D5 /* ContentView.swift in Sources */,
+				9550877023A909780013B3D5 /* Positioning.swift in Sources */,
+				9550877223A90B260013B3D5 /* GettingSize.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
