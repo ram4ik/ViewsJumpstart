@@ -20,6 +20,19 @@
 		955086DB23A7A3C40013B3D5 /* NoSegmentSelected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955086DA23A7A3C40013B3D5 /* NoSegmentSelected.swift */; };
 		955086DD23A7A61B0013B3D5 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955086DC23A7A61B0013B3D5 /* Colors.swift */; };
 		9550873E23A8D71F0013B3D5 /* ToggleIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550873D23A8D71F0013B3D5 /* ToggleIntroduction.swift */; };
+		9550874123A8D87B0013B3D5 /* LineLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550874023A8D87B0013B3D5 /* LineLimit.swift */; };
+		9550874323A8D94D0013B3D5 /* TextStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550874223A8D94D0013B3D5 /* TextStyles.swift */; };
+		9550874523A8DAE60013B3D5 /* Weights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550874423A8DAE60013B3D5 /* Weights.swift */; };
+		9550874723A8DCB80013B3D5 /* Weight&TextStyleCombined.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550874623A8DCB80013B3D5 /* Weight&TextStyleCombined.swift */; };
+		9550874923A8DE120013B3D5 /* FontDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550874823A8DE120013B3D5 /* FontDesign.swift */; };
+		9550874B23A8DF5C0013B3D5 /* Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550874A23A8DF5C0013B3D5 /* Formatting.swift */; };
+		9550874D23A8E0D60013B3D5 /* AllowsTightening.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550874C23A8E0D60013B3D5 /* AllowsTightening.swift */; };
+		9550874F23A8E2190013B3D5 /* MinimumScaleFactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550874E23A8E2190013B3D5 /* MinimumScaleFactor.swift */; };
+		9550875123A8E3A30013B3D5 /* LineSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550875023A8E3A30013B3D5 /* LineSpacing.swift */; };
+		9550875323A8E5790013B3D5 /* Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550875223A8E5790013B3D5 /* Alignment.swift */; };
+		9550875523A8E73A0013B3D5 /* TruncationMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550875423A8E73A0013B3D5 /* TruncationMode.swift */; };
+		9550875723A8E9D20013B3D5 /* CombiningModifiedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550875623A8E9D20013B3D5 /* CombiningModifiedText.swift */; };
+		9550875923A8EE2F0013B3D5 /* BeselineOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550875823A8EE2F0013B3D5 /* BeselineOffset.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +51,19 @@
 		955086DA23A7A3C40013B3D5 /* NoSegmentSelected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoSegmentSelected.swift; sourceTree = "<group>"; };
 		955086DC23A7A61B0013B3D5 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		9550873D23A8D71F0013B3D5 /* ToggleIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleIntroduction.swift; sourceTree = "<group>"; };
+		9550874023A8D87B0013B3D5 /* LineLimit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineLimit.swift; sourceTree = "<group>"; };
+		9550874223A8D94D0013B3D5 /* TextStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyles.swift; sourceTree = "<group>"; };
+		9550874423A8DAE60013B3D5 /* Weights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weights.swift; sourceTree = "<group>"; };
+		9550874623A8DCB80013B3D5 /* Weight&TextStyleCombined.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Weight&TextStyleCombined.swift"; sourceTree = "<group>"; };
+		9550874823A8DE120013B3D5 /* FontDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontDesign.swift; sourceTree = "<group>"; };
+		9550874A23A8DF5C0013B3D5 /* Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatting.swift; sourceTree = "<group>"; };
+		9550874C23A8E0D60013B3D5 /* AllowsTightening.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllowsTightening.swift; sourceTree = "<group>"; };
+		9550874E23A8E2190013B3D5 /* MinimumScaleFactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumScaleFactor.swift; sourceTree = "<group>"; };
+		9550875023A8E3A30013B3D5 /* LineSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineSpacing.swift; sourceTree = "<group>"; };
+		9550875223A8E5790013B3D5 /* Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alignment.swift; sourceTree = "<group>"; };
+		9550875423A8E73A0013B3D5 /* TruncationMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruncationMode.swift; sourceTree = "<group>"; };
+		9550875623A8E9D20013B3D5 /* CombiningModifiedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombiningModifiedText.swift; sourceTree = "<group>"; };
+		9550875823A8EE2F0013B3D5 /* BeselineOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeselineOffset.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +119,7 @@
 		955086CF23A79A8B0013B3D5 /* Control Views */ = {
 			isa = PBXGroup;
 			children = (
+				9550873F23A8D86B0013B3D5 /* Text */,
 				9550873C23A8D6FE0013B3D5 /* Toggle */,
 				955086DE23A7AA530013B3D5 /* Slider */,
 				955086D723A7A1B10013B3D5 /* SegmentedControl(Picker) */,
@@ -134,6 +161,26 @@
 				9550873D23A8D71F0013B3D5 /* ToggleIntroduction.swift */,
 			);
 			path = Toggle;
+			sourceTree = "<group>";
+		};
+		9550873F23A8D86B0013B3D5 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				9550874023A8D87B0013B3D5 /* LineLimit.swift */,
+				9550874223A8D94D0013B3D5 /* TextStyles.swift */,
+				9550874423A8DAE60013B3D5 /* Weights.swift */,
+				9550874623A8DCB80013B3D5 /* Weight&TextStyleCombined.swift */,
+				9550874823A8DE120013B3D5 /* FontDesign.swift */,
+				9550874A23A8DF5C0013B3D5 /* Formatting.swift */,
+				9550874C23A8E0D60013B3D5 /* AllowsTightening.swift */,
+				9550874E23A8E2190013B3D5 /* MinimumScaleFactor.swift */,
+				9550875023A8E3A30013B3D5 /* LineSpacing.swift */,
+				9550875223A8E5790013B3D5 /* Alignment.swift */,
+				9550875423A8E73A0013B3D5 /* TruncationMode.swift */,
+				9550875623A8E9D20013B3D5 /* CombiningModifiedText.swift */,
+				9550875823A8EE2F0013B3D5 /* BeselineOffset.swift */,
+			);
+			path = Text;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,12 +254,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9550875723A8E9D20013B3D5 /* CombiningModifiedText.swift in Sources */,
+				9550875923A8EE2F0013B3D5 /* BeselineOffset.swift in Sources */,
+				9550874F23A8E2190013B3D5 /* MinimumScaleFactor.swift in Sources */,
+				9550874723A8DCB80013B3D5 /* Weight&TextStyleCombined.swift in Sources */,
+				9550874D23A8E0D60013B3D5 /* AllowsTightening.swift in Sources */,
+				9550874323A8D94D0013B3D5 /* TextStyles.swift in Sources */,
 				955086D923A7A2070013B3D5 /* SegmentedControlIntroduction.swift in Sources */,
+				9550875323A8E5790013B3D5 /* Alignment.swift in Sources */,
+				9550875123A8E3A30013B3D5 /* LineSpacing.swift in Sources */,
 				955086DD23A7A61B0013B3D5 /* Colors.swift in Sources */,
 				955086BC23A79A7F0013B3D5 /* AppDelegate.swift in Sources */,
 				955086D223A79AC90013B3D5 /* SecureFieldIntroduction.swift in Sources */,
+				9550874B23A8DF5C0013B3D5 /* Formatting.swift in Sources */,
+				9550875523A8E73A0013B3D5 /* TruncationMode.swift in Sources */,
 				955086DB23A7A3C40013B3D5 /* NoSegmentSelected.swift in Sources */,
+				9550874523A8DAE60013B3D5 /* Weights.swift in Sources */,
+				9550874123A8D87B0013B3D5 /* LineLimit.swift in Sources */,
 				955086BE23A79A7F0013B3D5 /* SceneDelegate.swift in Sources */,
+				9550874923A8DE120013B3D5 /* FontDesign.swift in Sources */,
 				955086D623A7A0160013B3D5 /* CustomizationLayers.swift in Sources */,
 				9550873E23A8D71F0013B3D5 /* ToggleIntroduction.swift in Sources */,
 				955086D423A79BE10013B3D5 /* Customizations.swift in Sources */,
