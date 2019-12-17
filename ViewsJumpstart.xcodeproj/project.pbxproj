@@ -37,6 +37,10 @@
 		9550875D23A8F35A0013B3D5 /* CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550875C23A8F35A0013B3D5 /* CustomFonts.swift */; };
 		9550875F23A8F5420013B3D5 /* ImportedFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550875E23A8F5420013B3D5 /* ImportedFonts.swift */; };
 		9550876223A8F7BB0013B3D5 /* Gisbon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9550876123A8F7BB0013B3D5 /* Gisbon.ttf */; };
+		9550876523A8FECA0013B3D5 /* NavigationViewIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550876423A8FECA0013B3D5 /* NavigationViewIntroduction.swift */; };
+		9550876723A9011A0013B3D5 /* DisplayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550876623A9011A0013B3D5 /* DisplayMode.swift */; };
+		9550876923A9029B0013B3D5 /* NavigationBarHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550876823A9029B0013B3D5 /* NavigationBarHidden.swift */; };
+		9550876B23A903EA0013B3D5 /* NavigationBarItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550876A23A903EA0013B3D5 /* NavigationBarItems.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +76,10 @@
 		9550875C23A8F35A0013B3D5 /* CustomFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFonts.swift; sourceTree = "<group>"; };
 		9550875E23A8F5420013B3D5 /* ImportedFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportedFonts.swift; sourceTree = "<group>"; };
 		9550876123A8F7BB0013B3D5 /* Gisbon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gisbon.ttf; sourceTree = "<group>"; };
+		9550876423A8FECA0013B3D5 /* NavigationViewIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewIntroduction.swift; sourceTree = "<group>"; };
+		9550876623A9011A0013B3D5 /* DisplayMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayMode.swift; sourceTree = "<group>"; };
+		9550876823A9029B0013B3D5 /* NavigationBarHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarHidden.swift; sourceTree = "<group>"; };
+		9550876A23A903EA0013B3D5 /* NavigationBarItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarItems.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +136,7 @@
 		955086CF23A79A8B0013B3D5 /* Control Views */ = {
 			isa = PBXGroup;
 			children = (
+				9550876323A8FE8D0013B3D5 /* NavigationView */,
 				9550873F23A8D86B0013B3D5 /* Text */,
 				9550873C23A8D6FE0013B3D5 /* Toggle */,
 				955086DE23A7AA530013B3D5 /* Slider */,
@@ -193,6 +202,17 @@
 				9550875E23A8F5420013B3D5 /* ImportedFonts.swift */,
 			);
 			path = Text;
+			sourceTree = "<group>";
+		};
+		9550876323A8FE8D0013B3D5 /* NavigationView */ = {
+			isa = PBXGroup;
+			children = (
+				9550876423A8FECA0013B3D5 /* NavigationViewIntroduction.swift */,
+				9550876623A9011A0013B3D5 /* DisplayMode.swift */,
+				9550876823A9029B0013B3D5 /* NavigationBarHidden.swift */,
+				9550876A23A903EA0013B3D5 /* NavigationBarItems.swift */,
+			);
+			path = NavigationView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,11 +289,13 @@
 			files = (
 				9550875723A8E9D20013B3D5 /* CombiningModifiedText.swift in Sources */,
 				9550875923A8EE2F0013B3D5 /* BeselineOffset.swift in Sources */,
+				9550876923A9029B0013B3D5 /* NavigationBarHidden.swift in Sources */,
 				9550874F23A8E2190013B3D5 /* MinimumScaleFactor.swift in Sources */,
 				9550874723A8DCB80013B3D5 /* Weight&TextStyleCombined.swift in Sources */,
 				9550874D23A8E0D60013B3D5 /* AllowsTightening.swift in Sources */,
 				9550874323A8D94D0013B3D5 /* TextStyles.swift in Sources */,
 				955086D923A7A2070013B3D5 /* SegmentedControlIntroduction.swift in Sources */,
+				9550876B23A903EA0013B3D5 /* NavigationBarItems.swift in Sources */,
 				9550875D23A8F35A0013B3D5 /* CustomFonts.swift in Sources */,
 				9550875B23A8F1720013B3D5 /* LayoutPriority.swift in Sources */,
 				9550875323A8E5790013B3D5 /* Alignment.swift in Sources */,
@@ -282,6 +304,7 @@
 				955086BC23A79A7F0013B3D5 /* AppDelegate.swift in Sources */,
 				955086D223A79AC90013B3D5 /* SecureFieldIntroduction.swift in Sources */,
 				9550874B23A8DF5C0013B3D5 /* Formatting.swift in Sources */,
+				9550876723A9011A0013B3D5 /* DisplayMode.swift in Sources */,
 				9550875523A8E73A0013B3D5 /* TruncationMode.swift in Sources */,
 				955086DB23A7A3C40013B3D5 /* NoSegmentSelected.swift in Sources */,
 				9550874523A8DAE60013B3D5 /* Weights.swift in Sources */,
@@ -289,6 +312,7 @@
 				9550874123A8D87B0013B3D5 /* LineLimit.swift in Sources */,
 				955086BE23A79A7F0013B3D5 /* SceneDelegate.swift in Sources */,
 				9550874923A8DE120013B3D5 /* FontDesign.swift in Sources */,
+				9550876523A8FECA0013B3D5 /* NavigationViewIntroduction.swift in Sources */,
 				955086D623A7A0160013B3D5 /* CustomizationLayers.swift in Sources */,
 				9550873E23A8D71F0013B3D5 /* ToggleIntroduction.swift in Sources */,
 				955086D423A79BE10013B3D5 /* Customizations.swift in Sources */,
