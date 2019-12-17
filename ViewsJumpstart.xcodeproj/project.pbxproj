@@ -45,6 +45,7 @@
 		9550877023A909780013B3D5 /* Positioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550876F23A909780013B3D5 /* Positioning.swift */; };
 		9550877223A90B260013B3D5 /* GettingSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550877123A90B260013B3D5 /* GettingSize.swift */; };
 		9550877423A90CC20013B3D5 /* GettingCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550877323A90CC20013B3D5 /* GettingCoordinates.swift */; };
+		9550877623A912E10013B3D5 /* MinMidMaxCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550877523A912E10013B3D5 /* MinMidMaxCoordinates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +89,7 @@
 		9550876F23A909780013B3D5 /* Positioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Positioning.swift; sourceTree = "<group>"; };
 		9550877123A90B260013B3D5 /* GettingSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingSize.swift; sourceTree = "<group>"; };
 		9550877323A90CC20013B3D5 /* GettingCoordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingCoordinates.swift; sourceTree = "<group>"; };
+		9550877523A912E10013B3D5 /* MinMidMaxCoordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinMidMaxCoordinates.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,6 +233,7 @@
 				9550876F23A909780013B3D5 /* Positioning.swift */,
 				9550877123A90B260013B3D5 /* GettingSize.swift */,
 				9550877323A90CC20013B3D5 /* GettingCoordinates.swift */,
+				9550877523A912E10013B3D5 /* MinMidMaxCoordinates.swift */,
 			);
 			path = GeometryReader;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				9550874D23A8E0D60013B3D5 /* AllowsTightening.swift in Sources */,
 				9550874323A8D94D0013B3D5 /* TextStyles.swift in Sources */,
 				955086D923A7A2070013B3D5 /* SegmentedControlIntroduction.swift in Sources */,
+				9550877623A912E10013B3D5 /* MinMidMaxCoordinates.swift in Sources */,
 				9550877423A90CC20013B3D5 /* GettingCoordinates.swift in Sources */,
 				9550876B23A903EA0013B3D5 /* NavigationBarItems.swift in Sources */,
 				9550875D23A8F35A0013B3D5 /* CustomFonts.swift in Sources */,
