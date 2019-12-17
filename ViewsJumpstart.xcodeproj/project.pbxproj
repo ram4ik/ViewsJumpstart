@@ -19,6 +19,7 @@
 		955086D923A7A2070013B3D5 /* SegmentedControlIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955086D823A7A2070013B3D5 /* SegmentedControlIntroduction.swift */; };
 		955086DB23A7A3C40013B3D5 /* NoSegmentSelected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955086DA23A7A3C40013B3D5 /* NoSegmentSelected.swift */; };
 		955086DD23A7A61B0013B3D5 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955086DC23A7A61B0013B3D5 /* Colors.swift */; };
+		9550873E23A8D71F0013B3D5 /* ToggleIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550873D23A8D71F0013B3D5 /* ToggleIntroduction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		955086D823A7A2070013B3D5 /* SegmentedControlIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlIntroduction.swift; sourceTree = "<group>"; };
 		955086DA23A7A3C40013B3D5 /* NoSegmentSelected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoSegmentSelected.swift; sourceTree = "<group>"; };
 		955086DC23A7A61B0013B3D5 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		9550873D23A8D71F0013B3D5 /* ToggleIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleIntroduction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		955086CF23A79A8B0013B3D5 /* Control Views */ = {
 			isa = PBXGroup;
 			children = (
+				9550873C23A8D6FE0013B3D5 /* Toggle */,
 				955086DE23A7AA530013B3D5 /* Slider */,
 				955086D723A7A1B10013B3D5 /* SegmentedControl(Picker) */,
 				955086D023A79A9A0013B3D5 /* SecureField */,
@@ -123,6 +126,14 @@
 			children = (
 			);
 			path = Slider;
+			sourceTree = "<group>";
+		};
+		9550873C23A8D6FE0013B3D5 /* Toggle */ = {
+			isa = PBXGroup;
+			children = (
+				9550873D23A8D71F0013B3D5 /* ToggleIntroduction.swift */,
+			);
+			path = Toggle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +214,7 @@
 				955086DB23A7A3C40013B3D5 /* NoSegmentSelected.swift in Sources */,
 				955086BE23A79A7F0013B3D5 /* SceneDelegate.swift in Sources */,
 				955086D623A7A0160013B3D5 /* CustomizationLayers.swift in Sources */,
+				9550873E23A8D71F0013B3D5 /* ToggleIntroduction.swift in Sources */,
 				955086D423A79BE10013B3D5 /* Customizations.swift in Sources */,
 				955086C023A79A7F0013B3D5 /* ContentView.swift in Sources */,
 			);
